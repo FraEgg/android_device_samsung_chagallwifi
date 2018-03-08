@@ -24,3 +24,18 @@ ro.device.screen_res=2560 x 1600 pixels (288 ppi pixel density)
 
 # Storage
 ro.sdcardfs.enable=false
+
+# AptXHD
+ persist.bt.enableAptXHD=true
+ 
+# 8224 Freak Tweaks
+# -----------------
+
+lockscreen.rot_override = true
+net.tethering.noprovisioning=true
+ro.hdmi.enable=true
+ro.hdmi.mirror.enable=true
+ 
+# Fix Cast/Miracast
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
