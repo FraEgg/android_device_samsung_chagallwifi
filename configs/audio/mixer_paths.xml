@@ -246,22 +246,22 @@ INPUT_CHANNEL_MAP {
     <ctl name="Main Mic Switch" value="1" />
     <ctl name="MICBIAS Mode" value="BIAS2ON" />
     <ctl name="LHPF1 Input 1" value="IN1L" />
-    <ctl name="IN1L Volume" value="18" />
-    <ctl name="IN1L Digital Volume" value="150" />
+    <ctl name="IN1L Volume" value="48" />
+    <ctl name="IN1L Digital Volume" value="125" />
   </path>
 
   <path name="back-mic">
     <ctl name="Sub Mic Switch" value="1" />
     <ctl name="LHPF2 Input 1" value="IN2L" />
-    <ctl name="IN2L Volume" value="17" />
-    <ctl name="IN2L Digital Volume" value="150" />
+    <ctl name="IN2L Volume" value="32" />
+    <ctl name="IN2L Digital Volume" value="128" />
   </path>
 
   <path name="third-mic">
     <ctl name="3rd Mic Switch" value="1" />
     <ctl name="LHPF1 Input 1" value="IN2R" />
-    <ctl name="IN2R Volume" value="20" />
-    <ctl name="IN2R Digital Volume" value="150" />
+    <ctl name="IN2R Volume" value="32" />
+    <ctl name="IN2R Digital Volume" value="128" />
   </path>
 
   <path name="headset-in">
@@ -370,7 +370,7 @@ INPUT_CHANNEL_MAP {
       <path name="channel-left" />
       <path name="aif2-stereo-mic" />
       <path name="builtin-mic" />
-      <ctl name="IN1L Volume" value="25" />
+      <ctl name="IN1L Volume" value="48" />
   </path>
 
   <path name="media-headset-mic">
@@ -383,8 +383,8 @@ INPUT_CHANNEL_MAP {
       <path name="channel-left" />
       <path name="aif2-stereo-mic" />
       <path name="builtin-mic" />
-      <ctl name="IN1L Volume" value="27" />
-      <ctl name="IN1L Digital Volume" value="152" />
+      <ctl name="IN1L Volume" value="48" />
+      <ctl name="IN1L Digital Volume" value="128" />
   </path>
 
   <path name="communication-main-mic">
