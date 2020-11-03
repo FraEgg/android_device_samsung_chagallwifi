@@ -39,3 +39,7 @@ ro.hdmi.mirror.enable=true
 # Fix Cast/Miracast
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# Fix Voice Fall
+persist.vendor.audio.fluence.voicecall=false
+ro.vendor.audio.sdk.fluencetype=none
